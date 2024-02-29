@@ -1,2 +1,2 @@
 # praktikum-imk
-belajar praktikum bersama
+learn life, live a life
