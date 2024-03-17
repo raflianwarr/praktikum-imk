@@ -4,24 +4,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri</title>
-    <link rel="stylesheet" href="styles.css">
+    <title> Tugas 2</title>
+    <link rel="stylesheet" href="tailwind-components/output.css">
 </head>
 
 <body>
-    <div class="container">
-        <img src="profil.jpg" alt="My Profile Picture" class="profile-img">
-        <h1>Rafli Anwarsyah Daulay</h1>
-        <p>Saya adalah seorang mahasiswa yang berkuliah di jurusan Teknologi Informasi USU dan sedang memasuki semester 4. Saya memiliki minat dalam berdagang dan saya senang belajar hal-hal baru seputar ilmu baru berdagang. Di luar pekerjaan, saya menyukai
-            olahraga basket dan bola kaki.
-        </p>
-        <h2>Kontak</h2>
-        <p>Email: rafli@gmail.com</p>
-        <p>Telepon: 0813-7777-8888</p>
-        <h2>Sosial Media</h2>
-        <p><a href="https://www.linkedin.com/in/rafli-anwarsyah-daulay">LinkedIn</a></p>
-        <p><a href="https://www.instagram.com/raflianwarr">Instagram</a></p>
+
+    <div class="container-fluid bg-black m-auto h-20 flex items-center">
+        <div class="container m-auto h-20 flex items-center justify-between ">
+
+            <div class="flex items-center space-x-4">
+                <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-pendidikan@2x.0ce0acdc.webp " width="50px" height="50px" alt=" ">
+                <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-white@2x.5330316a.webp " width="70px" height="70px">
+            </div>
+
+            <div class="lg:flex hidden items-center space-x-5 text-white font-bold">
+                <a href="#" class="text-white">Beranda</a>
+                <a href="#" class="text-white">Program</a>
+                <a href="#" class="text-white">Butuh bantuan</a>
+                <button class="border border-s-white text-black bg-white rounded-3xl p-3 flex items-center"><ion-icon name="person" class="mr-2"></ion-icon>Masuk Akun </button>
+            </div>
+
+            <div class="text-3x1 text-white lg:hidden block">
+                <ion-icon name="grid"></ion-icon>
+            </div>
+
+
+
+        </div>
+
     </div>
+
+    <div name="navbar bawah" class="container-fluid m-auto h-24 flex lg:flex hidden items-center">
+        <div class="container m-auto h-full flex items-center font-semibold">
+            <div class="flex items-center space-x-8 text-x1 hover:bg-slate-100 hover:text-blue-600 p-5">
+                <a href="#"> Kampus mengajar</a>
+                <ion-icon name="chevron-down"></ion-icon>
+            </div>
+            <div class="flex items-center space-x-8 text-x1 hover:bg-slate-100 hover:text-blue-600 p-5">
+                <a href="#"> Magang MSIB</a>
+                <ion-icon name="chevron-down"></ion-icon>
+            </div>
+            <div class="flex items-center space-x-8 text-x1 hover:bg-slate-100 hover:text-blue-600 p-5">
+                <a href="#"> Studi Independen Bersertifikat</a>
+                <ion-icon name="chevron-down"></ion-icon>
+            </div>
+            <div class="flex items-center space-x-8 text-x1 hover:bg-slate-100 hover:text-blue-600 p-5">
+                <a href="#"> Pertukaran Mahasiswa Merdeka</a>
+                <ion-icon name="chevron-down"></ion-icon>
+            </div>
+            <div class="flex items-center space-x-8 text-x1 hover:bg-slate-100 hover:text-blue-600 p-5">
+                <a href="#"> Program dan kegiatan lainnya</a>
+                <ion-icon name="chevron-down"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-auto pt-10 border-b-2 pb-8">
+        <h1 class="font-semibold text-5xl">Program kampus Merdeka</h1>
+
+
+        <div class="lg:grid-cols-3 grid-cols-1 grid gap-4 pt-10">
+            <div name="card" class="flex flex-col border p-8 rounded-xl shadow-md">
+                <div class="lg:flex hidden lg:items-center items-start py-5">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo@2x.7822f1d5.webp" alt="">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Kampus Mengajar</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                </div>
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-cstart py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                    <button class="border-2 border-black p-3 rounded-3xl mt-4 "> Cari Posisi Magang </button>
+                </div>
+
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-center items-start py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                    <button class="border-2 border-black p-3 rounded-3xl mt-4 "> Cari Kelas Studi Independen </button>
+                </div>
+
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-center items-start py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                </div>
+
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-center items-start py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                </div>
+
+                <div class="flex flex-col mt-28 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-center items-start py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                </div>
+
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+            <div name="card " class="flex flex-col border p-8 rounded-xl shadow-md ">
+                <div class="lg:flex hidden lg:items-center items-start py-5 ">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo@2x.e1ad4cf6.webp " alt=" ">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Magang Bersertifikat</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                </div>
+
+                <div class="flex flex-col mt-28 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between mb-8 border-t pt-8 ">Tentang Program <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-auto pt-10 mb-10">
+        <h1 class="font-semibold text-5xl">Kegiatan lainnya</h1>
+        <div class="lg:grid-cols-3 grid-cols-1 grid gap-4 pt-10">
+            <div name="card" class="flex flex-col border p-8 rounded-xl shadow-md">
+                <div class="lg:flex hidden lg:items-center items-start py-5">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo@2x.7822f1d5.webp" alt="">
+                </div>
+                <div class="lg:hidden flex  lg:items-center items-start lg:py-5 py-2">
+                    <img src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp" width="150px" height="150px">
+                </div>
+                <div class="flex flex-col ">
+                    <h1 class="font-semibold text-xl ">Kampus Mengajar</h1>
+                    <p class="font-light ">Bantu tingkatkan kualitas pengajaran pendidikan dasar melalui Kampus Mengajar</p>
+                    <button class="border-2 p-3 border-black rounded-3xl">Cari Posisi Magang</button>
+                </div>
+                <div class="flex flex-col items-start mt-7 text-blue-600 font-semibold text-xl ">
+                    <a href="# " class="flex items-center justify-between border-t pt-8 ">Syarat dan Ketentuan <ion-icon name="arrow-forward "></ion-icon></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div name="footer" class="bg-black m-auto lg:flex hidden items-center h-screen w-screen">
+        <div class="text-white container m-auto w-full h-96 grid grid-rows-2">
+            <div class="grid-cols-4 grid gap-5">
+                <div name="gambar" class="pl-40">
+                    <img src=" https://kampusmerdeka.kemdikbud.go.id/static/media/logo-kemendikbud@2x.8229b760.webp " width="120px " height="120px " alt=" ">
+                </div>
+                <div name="direktorat" class="space-y-5 flex flex-col ">
+                    <h1 class="font-bold ">Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi (Diktiristek)</h1>
+                    <div>
+                        <p>marketing@kampusmerdeka.co</p>
+                        <p>Jl. Jenderal Sudirman, Senayan, Jakarta 10270</p>
+                    </div>
+                </div>
+                <div name="navigasi " class="flex flex-col space-y-5 ">
+                    <h1 class="font-bold ">Navigasi</h1>
+                    <ul class="flex flex-col space-y-5 ">
+                        <li>
+                            <li><a href="# ">Beranda</a></li>
+                            <li><a href=" ">Tentang Kami</a></li>
+                            <li><a href=" ">Berita</a> </li>
+                            <li><a href=" ">Pengumuman</a></li>
+                            <li><a href=" ">Faq</a></li>
+                            <li><a href=" ">Program</a></li>
+                            <li><a href=" ">Daftar</a></li>
+                        </li>
+                    </ul>
+
+                </div>
+                <div name="eksternal ">
+                    <h1 class="font-bold ">Tautan Eksternal</h1>
+                    <a href="#"> Mitra Kampus Merdeka </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div name="Navbar-bawah-icon" class="fixed bottom-0 left-0 right-0 w-full h-14 bg-slate-200 text-black lg:hidden flex">
+        <div class="flex items-center container justify-between m-auto">
+            <div class="flex flex-col items-center">
+                <ion-icon name="home-sharp"></ion-icon>
+                <a href="#"> Beranda </a>
+            </div>
+            <div class="flex flex-col items-center text-orange-600">
+                <ion-icon name="home"></ion-icon>
+                <a href="#"> Beranda </a>
+            </div>
+            <div class="flex flex-col items-center">
+                <ion-icon name="home-sharp"></ion-icon>
+                <a href="#"> Beranda </a>
+            </div>
+            <div class="flex flex-col items-center">
+                <ion-icon name="home-sharp"></ion-icon>
+                <a href="#"> Beranda </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
